@@ -8,7 +8,7 @@ A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string
 A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase using Express.
 
 ## convertExpressEjs.js
-A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase using Express and EJS.  Study EJS template in folder `views/message.ejs`. 
+A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase using Express and EJS.  Study EJS template `views/message.ejs`. 
 
 ## Getting Started
 
