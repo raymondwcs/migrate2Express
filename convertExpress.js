@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/toupper',(req,res) => {
+app.get('/toupper',(req,res) => {  // GET /toupper
     if (req.query.text) {
         res.status(200).type('.html')
         .end(`<html><body><h1>${req.query.text.toUpperCase()}</h1></body></html>`);
@@ -10,7 +10,7 @@ app.get('/toupper',(req,res) => {
         .end(`<html><body><h1>Query String Parameter Missing!</h1></body></html>`);
     }
 })
-app.get('/*', (req,res) => {
+app.get('/*', (req,res) => {  // Other pathnames
     res.status(500).type('.html')
        .end(`<html><body><h1>Unknown Pathname!</h1></body></html>`);
 })
