@@ -5,10 +5,10 @@ Examples in this project help you migrate to [`Express`]{https://expressjs.com} 
 A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase without using any framework.
 
 ## convertExpress.js
-A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase without using Express.
+A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase using Express.
 
 ## convertExpressEjs.js
-A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase without using Express and EJS.  Study the EJS template in folder `views`. 
+A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase using Express and EJS.  Study EJS template in folder `views/message.ejs`. 
 
 ## Getting Started
 
