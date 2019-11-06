@@ -1,5 +1,5 @@
 # From Vanilla Node.js to Express and EJS
-Examples in this project help you migrate to [`Express`]{https://expressjs.com} and [`EJS`]{https://ejs.co}.
+Examples in this project help you migrate to [`Express`](https://expressjs.com) and [`EJS`](https://ejs.co).
 
 ## convert.js
 A Node.js server accepts `GET /toupper?text=xxx`, converts value of query string variable `text` to uppercase without using any framework.
